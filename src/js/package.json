@@ -1,0 +1,21 @@
+{
+  "name": "js-quick",
+  "version": "0.0.1",
+  "description": "js-quick",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "author": "hxgh",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "core-js": "^3.6.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.5"
+  }
+}
