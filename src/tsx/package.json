@@ -4,8 +4,8 @@
   "description": "npm-quick-start",
   "main": "lib/index.js",
   "scripts": {
-    "start": "webpack-dev-server --config config/webpack.config.dev.js",
-    "build": "webpack --config config/webpack.config.prod.js",
+    "start": "webpack-dev-server --config webpack/webpack.config.dev.js",
+    "build": "webpack --config webpack/webpack.config.prod.js",
     "pub": "npm run build && npm publish"
   },
   "author": "Hxgh",
@@ -49,7 +49,6 @@
     "webpack-merge": "^5.1.2"
   },
   "dependencies": {
-    "npm-quick-start": "^0.0.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
