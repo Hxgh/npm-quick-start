@@ -2,7 +2,7 @@
   "name": "npm-quick-start",
   "version": "0.0.6",
   "description": "npm-quick-start",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack/webpack.config.dev.js",
     "build": "webpack --config webpack/webpack.config.prod.js",

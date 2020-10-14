@@ -3,6 +3,8 @@
 config
 example
 node_modules
+webpack
+lib
 public
 src
 .babelrc
