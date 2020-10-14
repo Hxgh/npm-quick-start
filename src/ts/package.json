@@ -1,0 +1,16 @@
+{
+  "name": "npm-quick-start",
+  "version": "0.0.6",
+  "description": "npm-quick-start",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Hxgh",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {}
+}
