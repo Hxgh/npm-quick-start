@@ -8,7 +8,7 @@ const prodConfig = {
   mode: 'production',
   entry: path.join(__dirname, '../src/index.tsx'),
   output: {
-    path: path.join(__dirname, '../lib/'),
+    path: path.join(__dirname, '../dist/'),
     filename: 'index.js',
     libraryTarget: 'umd',
     libraryExport: 'default',
